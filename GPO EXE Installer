@@ -1,0 +1,15 @@
+$folder = 'C:\dafault folder of your software'
+
+# Define the path to the executable
+$installerPath = "\\Server\yourinstaler.exe"
+
+# Define the arguments for silent installation
+$installArgs = "/s"
+
+if (-not (Test-Path -Path $Folder)) {
+   
+    Start-Process -FilePath $installerPath -ArgumentList $installArgs -Wait
+
+    }
+
+else  { }
