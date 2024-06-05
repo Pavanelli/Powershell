@@ -1,3 +1,12 @@
+#Script Name: powershell.exe
+#Script Parameters: -noninteractive -executionPolicy Bypass -noprofile -file \\server\yourscript.ps1
+#
+#
+#
+#script starts here
+
+
+
 $folder = 'C:\dafault folder of your software'
 
 # Define the path to the executable
